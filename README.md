@@ -7,14 +7,14 @@ Developed FDeblur-GAN, a multi-stage conditional GAN framework with integrated r
 
 **Fingerphoto-Deblurring:  [Project](https://github.com/ajoshi944/Fingerphoto-Deblurring) |  [Paper](https://arxiv.org/pdf/2106.11354) **
 
-<img src="imgs/FDeblurGAN_arch.png" width="800px"/>
+<img src="imgs/FDeblurGAN_arch.png" width="600px"/>
 
 
 <img src='imgs/FDeblurGAN_results.png' width="400px"/>
 
 **Extended Version [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10201840) **
 
-<img src="imgs/deblurring_arch.png" width="800px"/>
+<img src="imgs/deblurring_arch.png" width="600px"/>
 
 
 <img src='imgs/realistic_results.png' width="400px"/>
