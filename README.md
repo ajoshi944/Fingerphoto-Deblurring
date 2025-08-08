@@ -3,6 +3,8 @@
 
 We provide PyTorch implementation for our Attention guided Multi-stage GAN.
 
+Developed FDeblur-GAN, a multi-stage conditional GAN framework with integrated ridge extraction and ID-verification modules to restore blurred fingerprints from low-quality sensors and mobile captures. Leveraged synthetic data generation, deep feature preservation, and multi-scale discriminators to achieve 95.18% matching accuracy on deblurred samples, nearly matching clean fingerprint performance. Published in IJCB,21 and extended for a IEEE Access publication.
+
 **Fingerphoto-Deblurring:  [Project](https://github.com/ajoshi944/Fingerphoto-Deblurring) |  [Paper](https://arxiv.org/pdf/2106.11354) **
 
 <img src="imgs/FDeblurGAN_arch.png" width="800px"/>
@@ -11,6 +13,7 @@ We provide PyTorch implementation for our Attention guided Multi-stage GAN.
 <img src='imgs/FDeblurGAN_results.png' width="400px"/>
 
 **Extended Version [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10201840) **
+
 <img src="imgs/deblurring_arch.png" width="800px"/>
 
 
