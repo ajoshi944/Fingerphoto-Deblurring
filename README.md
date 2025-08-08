@@ -5,7 +5,7 @@ We provide PyTorch implementation for our Attention guided Multi-stage GAN.
 
 **Fingerphoto-Deblurring:  [Project](https://github.com/ajoshi944/Fingerphoto-Deblurring) |  [Paper](https://arxiv.org/pdf/2106.11354) **
 
-<img src="imgs/FDeblurGAN_arch.jpg" width="800px"/>
+<img src="imgs/FDeblurGAN_arch.png" width="800px"/>
 
 
 <img src='imgs/FDeblurGAN_results.png' width="400px"/>
@@ -65,14 +65,6 @@ If you use this code for your research, please cite our papers.
   doi={10.1109/IJCB52358.2021.9484406}}
 
 ```
-
-
-## Related Projects
-**[contrastive-unpaired-translation](https://github.com/taesungp/contrastive-unpaired-translation) (CUT)**<br>
-**[CycleGAN-Torch](https://github.com/junyanz/CycleGAN) |
-[pix2pix-Torch](https://github.com/phillipi/pix2pix) | [pix2pixHD](https://github.com/NVIDIA/pix2pixHD)|
-[BicycleGAN](https://github.com/junyanz/BicycleGAN) | [vid2vid](https://tcwang0509.github.io/vid2vid/) | [SPADE/GauGAN](https://github.com/NVlabs/SPADE)**<br>
-**[iGAN](https://github.com/junyanz/iGAN) | [GAN Dissection](https://github.com/CSAILVision/GANDissect) | [GAN Paint](http://ganpaint.io/)**
 
 
 ## Acknowledgments
