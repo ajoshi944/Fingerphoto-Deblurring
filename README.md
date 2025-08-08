@@ -1,6 +1,8 @@
 
 # Fingerphoto Deblurring
 
+**Patent Pending Technology** - Application No. 18112701  
+
 We provide PyTorch implementation for our Attention guided Multi-stage GAN.
 
 Developed FDeblur-GAN, a multi-stage conditional GAN framework with integrated ridge extraction and ID-verification modules to restore blurred fingerprints from low-quality sensors and mobile captures. Leveraged synthetic data generation, deep feature preservation, and multi-scale discriminators to achieve 95.18% matching accuracy on deblurred samples, nearly matching clean fingerprint performance. Published in IJCB,21 and extended for a IEEE Access publication.
@@ -12,6 +14,17 @@ Developed FDeblur-GAN, a multi-stage conditional GAN framework with integrated r
 
 <img src='imgs/FDeblurGAN_results.png' width="400px"/>
 
+---
+
+## **Results**
+| Model | Plain cGAN model | Proposed model  |
+|-------|------------------|-----------------|
+| EER ↓ | 0.1796           | 0.12            |
+| AUC ↑ | 0.9090           | 0.9518          |
+
+
+---
+
 **Extended Version [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10201840) **
 
 <img src="imgs/deblurring_arch.png" width="600px"/>
@@ -21,24 +34,17 @@ Developed FDeblur-GAN, a multi-stage conditional GAN framework with integrated r
 
 <img src='imgs/minutiae_results.png' width="400px"/>
 
-## Getting Started
+---
 
-### Fingerphoto-Deblurring train/test
-- To view training results and loss plots, run `python -m visdom.server` and click the URL http://localhost:8097.
-- Train a model:
-```bash
-#!./scripts/train_model.sh
-python train.py --dataroot ./datasets/dataset_name --name model_name --model pix2pix --direction BtoA
-```
-To see more intermediate results, check out  `./checkpoints/model_name/web/index.html`.
+## **Results**
+| Metric | DeblurGAN v2 | Proposed Method |
+|--------|--------------|-----------------|
+| PSNR ↑ | 26.2646      | 30.4601         |
+| SSIM ↑ | 0.8646       | 0.9474          |
+| EER ↓  | 15.8576      | 5.8252          |
+| AUC ↑  | 90.3908      | 98.7704         |
 
-- Test the model (`bash ./scripts/test_model.sh`):
-```bash
-#!./scripts/test_model.sh
-python test.py --dataroot ./datasets/dataset_name --name model_name --model pix2pix --direction BtoA
-```
-- The test results will be saved to a html file here: `./results/model_name/test_latest/index.html`.
-
+---
 
 
 ## Citation
