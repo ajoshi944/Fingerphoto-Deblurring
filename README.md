@@ -46,6 +46,7 @@ Developed FDeblur-GAN, a multi-stage conditional GAN framework with integrated r
 
 ---
 
+**Related Work: Best Student Paper Award at IJCB,24 [Paper](https://arxiv.org/pdf/2407.15964) **
 
 ## Citation
 If you use this code for your research, please cite our papers.
